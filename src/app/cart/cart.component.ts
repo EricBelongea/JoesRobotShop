@@ -37,4 +37,3 @@ export class CartComponent implements OnInit {
     return '/assets/images/robot-parts/' + product.imageName;
   }
 }
-
