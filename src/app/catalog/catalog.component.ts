@@ -186,9 +186,10 @@ export class CatalogComponent {
       },
     ];
   }
-
-  getImageUrl(product: IProduct) {
-    return '/assets/images/robot-parts/' + product.imageName;
+  
+  addToCart(product: IProduct){
+    // this.addToCart.push(product);
+    console.log('product ${product.name} added to cart');
   }
 
   getFilteredProducts() {
